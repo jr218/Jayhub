@@ -1,0 +1,22 @@
+{
+  "name": "jayhub",
+  "version": "1.0.0",
+  "description": "The app that does everything!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jr218/jayhub.git"
+  },
+  "author": "Justin Roach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jr218/jayhub/issues"
+  },
+  "homepage": "https://github.com/jr218/jayhub#readme",
+  "dependencies": {
+    "electron": "^4.0.3"
+  }
+}
