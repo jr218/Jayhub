@@ -131,7 +131,7 @@ const MainMenuTemplate = [
 
 // If the user is running this on a mac, prepend an empty object to the menu to get rid of the 'Electron' menu item:
 if(process.platform == 'darwin') {
-  MainMenuTemplate.unshift({}); // The unshift method is an array method that adds things to the beginning of an array.
+  //MainMenuTemplate.unshift({}); // The unshift method is an array method that adds things to the beginning of an array.
   /* If I just simply added an empty object to MainMenuTemplate, then there would be a little space before the first
   menu item, and I don't want that to happen. That is why I made this if statement. */
 }
